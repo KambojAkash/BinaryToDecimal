@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.25s;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formBox {
+    width: 40%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.formBox h1 {
+    color: rgb(253, 33, 77);
+}
+
+.formBox input {
+    width: 80%;
+    padding: 10px 20px;
+}
+
+.formBox .btn {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px wheat;
+    background-color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.formBox .btn:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.answer {
+    background-color: white;
+    padding: 5px;
+    font-weight: bolder;
+    width: 40%;
+    text-align: center;
+}
